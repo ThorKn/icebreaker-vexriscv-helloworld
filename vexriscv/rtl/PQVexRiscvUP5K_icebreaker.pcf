@@ -1,0 +1,71 @@
+# Adapted for Icebreaker Board (T.Knoll)
+# 12 MHz clock
+set_io ice_clk 35
+
+# RS232
+# set_io iob_8a 9
+# set_io iob_9b 6
+
+# set_io -nowarn RX          6
+# set_io -nowarn TX          9
+
+# LEDs and Button
+# set_io -nowarn BTN_N      10
+# set_io -nowarn LEDR_N     11
+# set_io -nowarn LEDG_N     37
+
+# RGB LED Driver
+set_io rgb0 39
+set_io rgb1 40
+set_io rgb2 41
+
+# SPI Flash
+set_io ice_ss 16
+set_io ice_sck 15
+set_io ice_si 17
+set_io ice_so 14
+# set_io -nowarn FLASH_IO2  12
+# set_io -nowarn FLASH_IO3  13
+# set_io iob_22a 12
+# set_io iob_24a 13
+
+
+# PMOD 1A
+set_io iob_8a 4
+set_io iob_9b 3
+set_io iob_4a 48
+set_io iob_5b 45
+set_io iob_2a 47
+set_io iob_3b_g6 44
+set_io iob_0a 46
+set_io iob_6a 2
+
+# PMOD 1B
+set_io iob_23b 43
+set_io iob_25b_g3 38
+set_io iob_29b 34
+set_io iob_24a 31
+set_io iob_20a 42
+set_io iob_18a 36
+set_io iob_16a 32
+set_io iob_13b 28
+
+# PMOD 2
+set_io iob_22a 27
+set_io iob_31b 25
+set_io iot_37a 21
+set_io iot_36b 19
+set_io iot_39a 26
+set_io iot_38b 23
+set_io iot_43a 20
+set_io iot_42b 18
+
+# LEDs and Buttons (PMOD 2)
+#set_io iot_45a_g1 26
+#set_io iot_44b 27
+#set_io iot_49a 25
+#set_io iot_48b 23
+#set_io iot_51a 21
+#set_io iot_50b 20
+#set_io iot_41a 19
+
