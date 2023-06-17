@@ -64,8 +64,8 @@ class PQVexRiscvSim(
   ibusRange = SizeMapping(0x80000000l, ramBlockSizes.reduce(_ + _))
 ) {
   val io = new Bundle {
-    val asyncReset = in Bool
-    val mainClock = in Bool
+    val asyncReset = in Bool()
+    val mainClock = in Bool()
     val uart = master(Uart())
     val jtag = slave(Jtag())
   }
